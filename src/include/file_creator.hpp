@@ -18,7 +18,7 @@ public:
     file_creator& operator=(file_creator&&) = delete;
 
     void create_file(nlohmann::json& json_object, std::string& file_name);
-    nlohmann::json print_file(std::string& file_name);
+    nlohmann::json read_file(std::string& file_name);
 
 private:
     std::string m_file_path;
