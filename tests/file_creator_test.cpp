@@ -1,7 +1,6 @@
 #include "file_creator.hpp"
 
 #include <gtest/gtest.h>
-// #include <spdlog/spdlog.h>
 #include <filesystem>
 
 namespace
