@@ -19,4 +19,6 @@ target_link_libraries(${TESTS} PRIVATE
     GTest::gtest_main
 )
 
-include(GoogleTest)
+enable_testing()
+add_test(NAME ${TESTS} COMMAND ${TESTS})
+
